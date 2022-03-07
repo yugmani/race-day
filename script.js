@@ -13,7 +13,7 @@ let runnerAge = 100;
 // }
 
 // 5. log race time of early registered adults as 9:30am
-if (isRegisteredEarly === true && runnerAge > 18) {
+if (isRegisteredEarly && runnerAge > 18) {
   raceNumber += 1000;
   console.log(`Your race number is ${raceNumber} and race time is 9:30am`);
 }
